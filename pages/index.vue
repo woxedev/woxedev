@@ -10,14 +10,3 @@
       </div>
    </div>
 </template>
-<!--
-         <div class="flex items-center justify-center">
-            <div class="grid grid-cols-2 gap-4 *:rounded-full *:border *:border-neutral-200 *:w-10 *:h-10 rotate-45 hover:*:bg-neutral-200/50 *:transition-all hover:*:scale-90">
-               <div class="w-10 h-10"></div>
-               <div class="w-10 h-10"></div>
-               <div class="w-10 h-10"></div>
-               <div class="w-10 h-10"></div>
-            </div>
-         </div>
-
--->
