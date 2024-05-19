@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer default {
+   html {
+      @apply bg-zinc-100 text-zinc-900 font-serif;
+   }
+}
