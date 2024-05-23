@@ -18,7 +18,8 @@ I'm not a designer, but I love to create designs for my own projects. This time 
 
 After a few hours of designing, I came up with this design:
 
-![New design](/content/new-design.png)
+::c-image{src="/content/new-design.png" alt="New design of my website"}
+::
 
 I liked the design, it was simple and clean. It shows my most recent experiences directly to the user. I started to code the design after that.
 
