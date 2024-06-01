@@ -22,6 +22,11 @@ export default defineNuxtConfig({
           rel: "stylesheet",
         },
       ],
+      script: [
+        {
+          innerHTML: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-WVZ77JSH');`
+        }
+      ],
       meta: [
         {
           name: "title",
@@ -99,27 +104,3 @@ export default defineNuxtConfig({
     transpile: ['vue-sonner']
   }
 })
-
-/*
-<!-- Primary Meta Tags -->
-<title>Yusuf Eren Demir - Full-stack Developer</title>
-<meta name="title" content="Yusuf Eren Demir - Full-stack Developer" />
-<meta name="description" content="Self taught full-stack developer based in Istanbul, Turkiye." />
-
-<!-- Open Graph / Facebook -->
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://metatags.io/" />
-<meta property="og:title" content="Yusuf Eren Demir - Full-stack Developer" />
-<meta property="og:description" content="Self taught full-stack developer based in Istanbul, Turkiye." />
-<meta property="og:image" content="https://metatags.io/images/thumbnail.png" />
-
-<!-- Twitter -->
-<meta property="twitter:card" content="summary_large_image" />
-<meta property="twitter:url" content="https://metatags.io/" />
-<meta property="twitter:title" content="Yusuf Eren Demir - Full-stack Developer" />
-<meta property="twitter:description" content="Self taught full-stack developer based in Istanbul, Turkiye." />
-<meta property="twitter:image" content="https://metatags.io/images/thumbnail.png" />
-
-<!-- Meta Tags Generated with https://metatags.io -->
-
-*/
