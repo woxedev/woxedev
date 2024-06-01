@@ -16,7 +16,13 @@
          v-html="formatDescription(description)"
       ></p>
       <p v-if="date" class="mt-4 text-xs text-neutral-600">
-         {{ date }}
+         {{
+            new Date(date).toLocaleString("en", {
+               month: "long",
+               day: "numeric",
+               year: "numeric",
+            })
+         }}
       </p>
    </div>
 </template>
