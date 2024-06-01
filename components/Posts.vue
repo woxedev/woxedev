@@ -26,5 +26,9 @@
 
 <script setup lang="ts">
 const contentQuery = queryContent();
-let posts = await contentQuery.find();
+let posts = await contentQuery
+   .sort({
+      date: -1,
+   })
+   .find();
 </script>
