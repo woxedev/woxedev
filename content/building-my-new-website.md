@@ -2,6 +2,7 @@
 title: "Building my new website"
 description: "Story of the building my new website, using Nuxt.js and Tailwind CSS."
 image: "/content/new-design.png"
+date: 2024-05-19
 ---
 
 ## Why did I decide to build a new website?

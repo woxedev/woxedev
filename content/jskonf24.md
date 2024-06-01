@@ -2,6 +2,7 @@
 title: "JSKonf 2024 - One of the biggest JavaScript events in Turkey"
 description: "We were at JSKonf 2024 with one of my friend. Overview of the event and my thoughts from the perspective of a participant."
 image: "/content/jskonf2024.png"
+date: 2024-06-01
 ---
 
 ## The Event
